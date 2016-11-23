@@ -1,0 +1,7 @@
+<h5>Admin: Remove Posts</h5>
+
+<ul>
+    <li ng-repeat="blog in posts">
+        {{blog.id}} : {{blog.title}} : <button ng-click="removeBlogEntry(blog)">Remove</button>
+    </li>
+</ul>

@@ -1,0 +1,13 @@
+<h3>Welcome to VIDA Lifestyle</h3>
+
+<section>
+    <article ng-repeat="blog in posts">
+        <h3>{{blog.title}}</h3>
+        <p><em>Filed Under: </em>{{blog.tags}}</p>
+        <p>{{blog.content}}</p>
+    </article>
+</section>
+<button ng-click="changeRoute()">Create a Post/Reply</button>
+<br>
+<br>
+<hr>
