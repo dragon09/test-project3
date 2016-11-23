@@ -19,11 +19,7 @@ angular.module('adoptionBlog', [ 'ngRoute'
       })
       .when('/register', {
         templateUrl: 'ngViews/register.html',
-        controller: 'LoginCtrl'
-      })
-      .when('/login', {
-        templateUrl: 'ngViews/login.html',
-        controller: 'LoginCtrl'
+        controller: 'RegisterCtrl'
       })
       .when('/create', {
         templateUrl: 'ngViews/create.html',
@@ -37,9 +33,9 @@ angular.module('adoptionBlog', [ 'ngRoute'
         templateUrl: 'ngViews/admin.html',
         controller: 'AdminDeleteCtrl'
       })
-      .when('/account', {
-        templateUrl: 'ngViews/account.html',
-        controller: 'AccountCreateCtrl'
+      .when('/login', {
+        templateUrl: 'ngViews/login.html',
+        controller: 'LoginCtrl'
       })
       .when('/logout', {
         templateUrl: 'ngviews/logout.html',
